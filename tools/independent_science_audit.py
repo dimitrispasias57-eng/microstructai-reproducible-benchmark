@@ -153,7 +153,8 @@ for old, new in zip(rows,new_rows):
         if key != "runtime_ms":
             assert old[key] == new[key], (key,old["sample_id"])
 for filename in ("manifest.csv", "paired.csv", "tables.md", "config.json"):
-    assert (REF/filename).read_bytes() == (NEW/filename).read_bytes(), filename
+    # Text generated on Windows and Linux can differ only in newline bytes.
+    assert (REF/filename).read_text(encoding="utf-8") == (NEW/filename).read_text(encoding="utf-8"), filename
 for filename in ("summary.csv", "overall.csv", "failure_cases.csv"):
     for old, new in zip(table(REF/filename), table(NEW/filename)):
         for key in old:

@@ -1,9 +1,10 @@
 {
   "status": "passed",
   "files_scanned": 530,
-  "total_bytes": 21720439,
+  "total_bytes": 21720613,
   "issues": [],
   "excluded_paths": [
+    ".git/COMMIT_EDITMSG",
     ".git/config",
     ".git/description",
     ".git/HEAD",
@@ -21,13 +22,25 @@
     ".git/hooks/push-to-checkout.sample",
     ".git/hooks/sendemail-validate.sample",
     ".git/hooks/update.sample",
-    ".git/info/exclude"
+    ".git/index",
+    ".git/info/exclude",
+    ".git/info/refs",
+    ".git/logs/HEAD",
+    ".git/logs/refs/heads/main",
+    ".git/logs/refs/remotes/origin/main",
+    ".git/objects/info/packs",
+    ".git/objects/pack/multi-pack-index",
+    ".git/objects/pack/pack-a1a20ddd3b98f073c8b6d125f521bc5451b24be4.idx",
+    ".git/objects/pack/pack-a1a20ddd3b98f073c8b6d125f521bc5451b24be4.pack",
+    ".git/objects/pack/pack-a1a20ddd3b98f073c8b6d125f521bc5451b24be4.rev",
+    ".git/refs/heads/main",
+    ".git/refs/remotes/origin/main"
   ],
   "file_manifest": [
     {
       "path": ".gitattributes",
-      "bytes": 43,
-      "sha256": "4a7d92632f4fde0fdd2e2a888fe60aa82842dde87a671b5ab0192f7b4bfb2b42"
+      "bytes": 111,
+      "sha256": "82007aea591d6949a8015a0b0f485490d7b1e3cf4c2e4623ca8178cc0a5f622e"
     },
     {
       "path": ".github/workflows/tests.yml",
@@ -2666,8 +2679,8 @@
     },
     {
       "path": "tools/independent_science_audit.py",
-      "bytes": 12605,
-      "sha256": "bc2ba059dc42fa6d3ef371f945d4c50751946c98a67cff79a686ac8d226dadf3"
+      "bytes": 12711,
+      "sha256": "abee016b84f4be5fd5ef7da16c75df4f9baa9215111cd0e07e91b6928938c598"
     },
     {
       "path": "tools/release_audit.py",
