@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "article_condition_rows": 24,
+  "article_overall_rows": 2,
+  "article_paired_rows": 4,
+  "failure_arithmetic_cases": 2,
+  "range_and_selected_prose_claims_checked": true,
+  "relative_markdown_links_valid": true,
+  "unicode_encoding_checked": true,
+  "git": {
+    "standalone_root": true,
+    "commits": 0,
+    "refs": 0,
+    "remotes": 0,
+    "objects": 0,
+    "alternates": false,
+    "submodules": false
+  },
+  "original_archive_and_directory_unchanged": true,
+  "original_files_compared": 520,
+  "scope": "All numerical article tables and stated selected prose numbers traced; scientific interpretation additionally reviewed in prose."
+}

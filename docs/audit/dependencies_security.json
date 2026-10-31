@@ -1,0 +1,122 @@
+{
+  "status": "no_known_advisories_returned",
+  "source": "https://api.osv.dev/v1/querybatch",
+  "results": [
+    {
+      "package": "colorama",
+      "version": "0.4.6",
+      "advisories": []
+    },
+    {
+      "package": "contourpy",
+      "version": "1.4.0",
+      "advisories": []
+    },
+    {
+      "package": "cycler",
+      "version": "0.12.1",
+      "advisories": []
+    },
+    {
+      "package": "fonttools",
+      "version": "4.66.1",
+      "advisories": []
+    },
+    {
+      "package": "ImageIO",
+      "version": "2.37.4",
+      "advisories": []
+    },
+    {
+      "package": "iniconfig",
+      "version": "2.3.0",
+      "advisories": []
+    },
+    {
+      "package": "kiwisolver",
+      "version": "1.5.1",
+      "advisories": []
+    },
+    {
+      "package": "lazy_loader",
+      "version": "0.4",
+      "advisories": []
+    },
+    {
+      "package": "matplotlib",
+      "version": "3.11.2",
+      "advisories": []
+    },
+    {
+      "package": "networkx",
+      "version": "3.6.1",
+      "advisories": []
+    },
+    {
+      "package": "numpy",
+      "version": "2.5.4",
+      "advisories": []
+    },
+    {
+      "package": "packaging",
+      "version": "26.3",
+      "advisories": []
+    },
+    {
+      "package": "pip",
+      "version": "26.2.2",
+      "advisories": []
+    },
+    {
+      "package": "pillow",
+      "version": "13.0.0",
+      "advisories": []
+    },
+    {
+      "package": "pluggy",
+      "version": "1.6.0",
+      "advisories": []
+    },
+    {
+      "package": "Pygments",
+      "version": "2.21.0",
+      "advisories": []
+    },
+    {
+      "package": "pyparsing",
+      "version": "3.3.3",
+      "advisories": []
+    },
+    {
+      "package": "pytest",
+      "version": "9.0.3",
+      "advisories": []
+    },
+    {
+      "package": "python-dateutil",
+      "version": "2.9.0.post0",
+      "advisories": []
+    },
+    {
+      "package": "scikit-image",
+      "version": "0.25.2",
+      "advisories": []
+    },
+    {
+      "package": "scipy",
+      "version": "1.18.1",
+      "advisories": []
+    },
+    {
+      "package": "six",
+      "version": "1.17.0",
+      "advisories": []
+    },
+    {
+      "package": "tifffile",
+      "version": "2025.10.4",
+      "advisories": []
+    }
+  ],
+  "limitation": "Database snapshot, not a proof of security; no project source uploaded."
+}

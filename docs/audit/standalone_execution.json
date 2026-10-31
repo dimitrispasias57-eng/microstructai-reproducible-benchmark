@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "fresh_virtual_environment": true,
+  "system_site_packages": false,
+  "user_site_enabled": false,
+  "network_forbidden_during_execution": true,
+  "attempted_network_events": [],
+  "module_origins": "Only candidate, fresh venv and base Python standard library",
+  "unexpected_module_names": [],
+  "full_run_images": 480,
+  "full_run_evaluations": 960,
+  "limitation": "Fresh dependency environment on the same Windows host, not a clean OS or a network namespace sandbox."
+}

@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "images": 480,
+  "method_evaluations": 960,
+  "exact_arrays_between_runs": 1920,
+  "reference_and_comparison_accuracy_identical": true,
+  "independent_ground_truth_masks_identical": true,
+  "independent_generated_image_max_abs_error": 0.0,
+  "independent_segmentation_pixel_differences": {
+    "otsu": 0,
+    "local_gaussian": 0
+  },
+  "independent_bootstrap_endpoints": 48,
+  "bootstrap_max_abs_error": 1.1102230246251565e-16,
+  "otsu_float32_vs_float64": {
+    "images_with_pixel_differences": 1,
+    "total_pixel_differences": 3,
+    "max_relative_objective_loss": 1.4572219742259571e-08
+  },
+  "statistics_tolerance": 1e-12,
+  "independent_image_tolerance": 1e-07,
+  "reference_overall": [
+    {
+      "method": "otsu",
+      "n": "480",
+      "macro_iou": "0.5817012037935931",
+      "macro_f1": "0.6393677567189995",
+      "median_runtime_ms": "0.30215000000000003",
+      "iou_below_0_5_count": "212"
+    },
+    {
+      "method": "local_gaussian",
+      "n": "480",
+      "macro_iou": "0.6427029660041174",
+      "macro_f1": "0.7477564109222271",
+      "median_runtime_ms": "0.44899999999999995",
+      "iou_below_0_5_count": "124"
+    }
+  ],
+  "comparison_overall": [
+    {
+      "method": "otsu",
+      "n": "480",
+      "macro_iou": "0.5817012037935931",
+      "macro_f1": "0.6393677567189995",
+      "median_runtime_ms": "0.2847",
+      "iou_below_0_5_count": "212"
+    },
+    {
+      "method": "local_gaussian",
+      "n": "480",
+      "macro_iou": "0.6427029660041174",
+      "macro_f1": "0.7477564109222271",
+      "median_runtime_ms": "0.4696",
+      "iou_below_0_5_count": "124"
+    }
+  ],
+  "limitations": "Same AI reviewer, new audit code; shares NumPy RNG/I/O. Independent arithmetic/kernel implementations, not independent human peer review. Clean environment is a fresh venv on the same Windows host, not a fresh OS."
+}

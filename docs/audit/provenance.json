@@ -1,0 +1,13 @@
+{
+  "private_files_read": 43,
+  "candidate_text_files": 35,
+  "candidate_python_files": 10,
+  "exact_file_matches": [],
+  "token_window_matches": [],
+  "substantial_function_matches": [],
+  "long_line_matches": [],
+  "source_saved_to_disk": false,
+  "limits": "Mechanical similarity check, not proof of ownership or absence of conceptual IP overlap; public method provenance and human review remain necessary.",
+  "status": "passed",
+  "fixed_revision_read_only_comparison": true
+}

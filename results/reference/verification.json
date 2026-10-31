@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "samples_checked": 480,
+  "result_rows_checked": 960,
+  "timing_observations_checked": 4800,
+  "independent_confusion_and_metrics": true,
+  "summary_means_and_sd_checked": true,
+  "source_hashes_match": true,
+  "all_images_and_predictions_regenerated": true,
+  "limits": "Shares NumPy and file loader; regeneration reuses generator/methods; not an independent implementation of either segmentation algorithm. Bootstrap endpoints are not independently reimplemented."
+}

@@ -1,0 +1,7 @@
+numpy==2.5.4
+scipy==1.18.1
+scikit-image==0.25.2
+matplotlib==3.11.2
+pytest==9.0.3
+# Installation tooling pinned after the release security audit.
+pip==26.2.2

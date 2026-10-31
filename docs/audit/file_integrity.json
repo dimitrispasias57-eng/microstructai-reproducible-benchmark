@@ -1,0 +1,105 @@
+{
+  "status": "passed",
+  "synthetic_npz_archives": 480,
+  "pngs_checked": 3,
+  "archive_entries": "Only the four expected non-object arrays, with no archive/entry comments or encryption",
+  "png_metadata": "Only Matplotlib Software and DPI; no EXIF, private ancillary chunks or trailing bytes",
+  "python_import_inventory": {
+    "segbench/core.py": [
+      "dataclasses",
+      "itertools",
+      "math",
+      "numpy",
+      "scipy.ndimage",
+      "skimage.filters"
+    ],
+    "segbench/io.py": [
+      "csv",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib"
+    ],
+    "segbench/report.py": [
+      "argparse",
+      "collections",
+      "core",
+      "io",
+      "json",
+      "matplotlib",
+      "matplotlib.pyplot",
+      "numpy",
+      "pathlib",
+      "statistics"
+    ],
+    "segbench/run.py": [
+      "argparse",
+      "core",
+      "datetime",
+      "importlib.metadata",
+      "io",
+      "json",
+      "numpy",
+      "os",
+      "pathlib",
+      "platform",
+      "statistics",
+      "sys",
+      "time"
+    ],
+    "segbench/verify.py": [
+      "argparse",
+      "collections",
+      "core",
+      "hashlib",
+      "io",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "statistics"
+    ],
+    "segbench/__init__.py": [],
+    "tests/test_core.py": [
+      "dataclasses",
+      "numpy",
+      "pytest",
+      "segbench.core"
+    ],
+    "tests/test_pipeline.py": [
+      "dataclasses",
+      "json",
+      "pytest",
+      "segbench.core",
+      "segbench.io",
+      "segbench.report",
+      "segbench.run",
+      "segbench.verify"
+    ],
+    "tools/independent_science_audit.py": [
+      "argparse",
+      "collections",
+      "csv",
+      "hashlib",
+      "itertools",
+      "json",
+      "math",
+      "numpy",
+      "pathlib",
+      "sys"
+    ],
+    "tools/release_audit.py": [
+      "PIL",
+      "hashlib",
+      "json",
+      "numpy",
+      "pathlib",
+      "re",
+      "sys"
+    ]
+  },
+  "installed_record_files_checked": 5904,
+  "official_pypi_wheel_hashes_verified": 23,
+  "dependency_count": 23,
+  "limitations": "Static inspection and hash/provenance checks; not a formal proof that code has no vulnerabilities or that conceptual IP rights are cleared."
+}
